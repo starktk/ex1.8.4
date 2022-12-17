@@ -1,0 +1,50 @@
+svg {
+  width: 15px;
+  fill: white;
+}
+
+button {
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  border: none;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.adicionar {
+  background-color: green;
+}
+
+.excluir {
+  background-color: red;
+}
+
+.tarefa_listada,
+.tarefas_adicionar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.input_nome > label {
+  display: block;
+}
+
+.input_nome > input {
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
